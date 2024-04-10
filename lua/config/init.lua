@@ -46,6 +46,8 @@ vim.g.maplocalleader = "\\" -- Same for `maplocalleader`
 
 require("lazy").setup('plugins', opts)
 
+-------------------- IRON.NVIM --------------------------
+
 local iron = require("iron.core")
 
 iron.setup {
